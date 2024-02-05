@@ -46,8 +46,8 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            mendhak/http-https-echo
-            ghcr.io/mendhak/http-https-echo
+            Georift/docker-http-https-echo
+            ghcr.io/Georift/docker-http-https-echo
 
       - name: Build and push image
         uses: docker/build-push-action@v4
